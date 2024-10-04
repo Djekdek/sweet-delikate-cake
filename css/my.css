@@ -491,6 +491,13 @@ li {
     .heder-store__header-title {
         margin-bottom: 65px;
         font-size: 52px;
+        font-size: 42px;
+    }
+}
+@media (max-width: 400px) {
+    .heder-store__header-title {
+        margin-bottom: 30px;
+
     }
 }
 /*--------------.page__store style------------------*/
