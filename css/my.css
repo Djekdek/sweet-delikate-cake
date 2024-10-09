@@ -21,11 +21,11 @@ body {
     font-weight: 500;
     font-size: 18px;
     line-height: 1.8em;
-    color: #68423d;
+    color: #2F4F4F;
 }
 
 a {
-    color: #68423d;
+    color: #2F4F4F;
 	text-decoration: none;
 }
 
@@ -134,7 +134,7 @@ li {
 
 .menu__item a:hover {
     text-decoration: underline;
-    color: #a2584e;
+    color: #1f3535;
 }
 /*--------------heder media style------------------*/
 @media (max-width: 580px) {
@@ -206,15 +206,17 @@ li {
     width: 50%;
     height: 60vh;
     color: azure;
-    background: linear-gradient(to right, #9e8079, #a8581b);
+    background: linear-gradient(to right, #7e7878, #9d8470);
     padding: 80px 0px 80px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .main__title {
-    font-size: 72px;
+    font-size: 42px;
+    width: 400px;
+    text-align: center;
 }
 .title {
 }
@@ -228,7 +230,7 @@ li {
     color: white;
 }
 .main__info-button:hover{
-    background-color: #642820;
+    background-color: #1f3535;
 }
 /*--------------first screen media style------------------*/
 @media (max-width: 1400px){
@@ -242,7 +244,7 @@ li {
         height: 80vh;
     }
     .main__title {
-        font-size: 52px;
+        font-size: 42px;
     }
     .main__info-text {
         width: 80%;
@@ -363,7 +365,7 @@ li {
 .about__header {
     text-align: center;
     padding: 25px;
-    background: linear-gradient(to right, #9e8079, #a8581b);
+    background: linear-gradient(to right, #7e7878, #9d8470);
 }
 .about__title {
     font-size: 72px;
@@ -386,7 +388,7 @@ li {
 }
 /*--------------footer style------------------*/
 .footer {
-    background: linear-gradient(to right, #9e8079, #a8581b);
+    background: linear-gradient(to right, #7e7878, #9d8470);
     color: white;
     padding: 65px 0px;
 }
@@ -447,16 +449,18 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(to right, #9e807900, #a8581bbd);
+    background: linear-gradient(to right, #7e7878, #9d8470);
     padding-left: 10%;
     padding-top: 65px;
 }
 .heder-store__header-title {
     font-size: 72px;
     margin-bottom: 65px;
+    color: white;
 }
 .heder-store__header-text {
     width: 60%;
+    color: white;
     line-height: 30px;
     text-align: center;
 }
@@ -672,7 +676,7 @@ li {
     border: 1px solid #68423d;
 }
 .prise-order__link:hover {
-    background-color: #68423d;
+    background-color: #1f3535;
     color: white;
 }
 
@@ -756,7 +760,7 @@ li {
      display: flex;
      align-items: center;
      padding-top: 25px;
-     padding-bottom: 100px;
+     padding-bottom: 50px;
     }
 .card__imeg {
     width: 60%;
@@ -784,7 +788,7 @@ li {
     border: 1px solid #68423d;
 }
 .card__info-button:hover {
-    background-color: #68423d;
+    background-color: #1f3535;
     color: white;
 }
 
@@ -796,6 +800,7 @@ li {
 }
 .similar-card__title {
     font-size: 42px;
+    margin-top: 50px;
     margin-bottom: 25px;
 }
 .similar-card__wrap {
